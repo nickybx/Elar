@@ -1,0 +1,120 @@
+body {
+
+    background-color: #efefef;
+}
+
+
+#logo {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#logo .logo {
+    width: 250px;
+    color: black;
+    font-family: 'Arvo', serif;
+    margin-top: 50px;
+    cursor: pointer;
+    transition: ease-in-out 0.25s;
+
+}
+
+p {
+    text-align: center;
+    letter-spacing: 2px;
+    font-family: 'Arvo', serif;
+    font-size: 10px;
+    color: black;
+}
+
+.row img {
+    width: 160px;
+    cursor: pointer;
+    height: 120px;
+    aspect-ratio: 3/2;
+    object-fit: contain;
+
+}
+
+.row img:hover {
+
+    opacity: 30%;
+    transition: all 0.5s;
+}
+
+
+p {
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.column {
+    flex: 50%;
+    padding: 0 4px;
+}
+
+.column img {
+    vertical-align: middle;
+    margin-top: 8px;
+}
+
+#center {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.menu   {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lista {
+
+    display: inline;
+    list-style: none;
+    margin-top: 30px;
+    margin-right: 36px;
+}
+
+.lista li {
+
+    display: inline;
+    margin: 16px;
+    letter-spacing: 2px;
+    object-fit: contain;
+    cursor: pointer;
+    font-family: 'Arvo', serif;
+    transition: ease-out 0.25s;
+    color: black;
+
+    
+
+}
+
+li:hover {
+
+    
+    
+    box-shadow: 0 4px 5px -2px gray;
+}
+
+
