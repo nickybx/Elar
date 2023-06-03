@@ -1,0 +1,196 @@
+body {
+margin: 0;
+
+}
+header {
+ 
+    background: transparent;
+position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 70px;
+    text-align: center;
+    padding-top: 30px;
+
+}
+
+.nav-list {
+
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+
+}
+
+.nav-list li a {
+
+    padding: 15px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 8px;
+    transition: 0.1s ease-in;
+    margin: 0;
+    border: none;
+    text-align: center;
+}
+
+
+
+.nav-list li a:hover{
+
+    opacity: 80%;
+    font-size: 17px;
+
+}
+
+   
+    
+
+
+
+ .logo {
+
+    width: 120px;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+ 
+
+.logo:hover {
+
+transform: rotateY(360deg);
+
+}
+
+.logo {
+
+    transition: transform .7s ease-in-out;
+    cursor: pointer;
+
+    
+}
+
+h2 {
+
+    text-align: center;
+}
+
+
+.header {
+
+    z-index: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+    text-align: center;
+
+}
+
+.first-header {
+
+    font-size: 50px;
+    font-family: poppins;
+    color: rgb(255, 255, 255);
+    opacity: 90%;
+}
+
+.button {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.join {
+
+    background-color: transparent;
+    font-size: 20px;
+    border: solid 0.5px white;
+    font-family: quicksand;
+    padding-right: 25px;
+    padding-left: 25px;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    transition: 0.7s ease-in-out;
+}
+
+.join:hover {
+
+    background: white;
+    color: black;
+    border-color: black;
+}
+
+.container {
+
+    width: 100%;
+    height: 600px;
+
+}
+
+main {
+
+    background-image: url(https://static01.nyt.com/images/2021/08/16/business/16amazon1/merlin_187804560_96b0219b-1863-4423-90e0-6b9781aee731-articleLarge.jpg?quality=75&auto=webp&disable=upscale); background-position: center;
+    background-size: cover;
+
+}
+
+
+input[type=checkbox] {
+    display: none;
+  } 
+
+  .hamburger {
+    display: none;
+    font-size: 24px;
+    user-select: none; }
+
+  @media (max-width: 768px) {
+    .nav-list a {
+       display:none;
+       position: absolute;
+       background-color:teal;
+       right: 0;
+       left: 0;
+       text-align: center;
+       padding: 16px 0; }
+
+       input[type=checkbox]:checked ~ .nav-list a {
+        display: block; }
+
+        .hamburger {
+            display: block;
+            color: white;
+          }
+
+          .logo {
+            padding-left: 10px;
+          }
+
+          .first-header {
+font-size: 30px;
+            
+          }
+
+          .join {
+
+            font-size: 10px;
+          }
+
+       
+
+
+
+
