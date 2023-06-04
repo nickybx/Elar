@@ -1,0 +1,101 @@
+body {
+
+    background-image: url(https://img.freepik.com/free-vector/blurred-aquamarine-background_1107-134.jpg?w=1380&t=st=1685750336~exp=1685750936~hmac=28301845c1fb84efa82735bfc45f54609ccb90ee8ea267dc21cf663fa2dfc0e2);
+background-size: cover;
+
+
+}
+header {
+ 
+    background-color: rgb(28, 29, 34);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 70px;
+
+}
+
+.nav-list {
+
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+
+}
+
+.nav-list li a {
+
+    padding: 15px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 8px;
+    transition: 0.1s ease-in;
+    margin: 0;
+    border: none;
+}
+
+
+
+.nav-list li a:hover{
+
+    opacity: 80%;
+    font-size: 17px;
+
+}
+
+   
+    
+
+
+
+.nav-list li img {
+
+    width: 100px;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+ 
+
+.logo:hover {
+
+transform: rotateY(180deg);
+
+
+}
+
+.logo {
+
+    transition: transform .7s ease-in-out;
+    cursor: pointer;
+
+    
+}
+
+h2 {
+
+    text-align: center;
+}
+
+
+.header {
+
+    z-index: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 150px;
+}
+
+
+
+
+
+
