@@ -3,6 +3,10 @@ margin: 0;
 
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 .x-navbar {
  
     background: transparent;
@@ -64,6 +68,8 @@ position: fixed;
     padding-right: 40px;
     padding-left: 40px;
 }
+
+
 
  
 
@@ -149,7 +155,7 @@ main {
 
 }
 
-.panel {
+#panel {
 
     max-width: 100%;
     display: flex;
@@ -172,6 +178,7 @@ main {
     margin: 10px;
     background-color: white;
     max-width: 200px;
+    height: 400px;
     
 }
 
@@ -185,6 +192,7 @@ main {
         padding-left: 40px;
         padding-right: 40px;
         height: 300px;
+
         
     }
 
@@ -297,7 +305,7 @@ main {
 
     width: 100%;
     border-radius: 50%;
-    height: 80%;
+    height: 30%;
     aspect-ratio: 3/2;
     object-fit: contain;
 }
@@ -360,13 +368,14 @@ font-size: 30px;
 
 @media (max-width:768px) {
 
-    .panel {
+    #panel {
         flex-direction: column;
     }
 
     .mini-panel {
 
         width: 200px;
+        flex-direction: column;
     }
 }
 
