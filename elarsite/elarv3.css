@@ -161,9 +161,12 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #f9fcff;
-    background-image: linear-gradient(147deg, #f9fcff 0%, #dee4ea 74%);
+    color: white;
     padding-top: 80px;
+    padding-bottom: 80px;
+    background-color: #000000;
+    background-image: linear-gradient(147deg, #000000 0%, #04619f 74%);
+
     }
 
 .mini-panel {
@@ -176,9 +179,10 @@ main {
     border: 0.5px solid     #efefef;
     border-radius: 20px;
     margin: 10px;
-    background-color: white;
     max-width: 200px;
     height: 400px;
+    background-color: white;
+    color: black;
     
 }
 
@@ -301,6 +305,7 @@ main {
     transition: all 0.5s ease-in;
 }
 
+
 .panel-img {
 
     width: 100%;
@@ -333,6 +338,105 @@ input[type=checkbox] {
     display: none;
     font-size: 24px;
     user-select: none; }
+
+
+
+
+.panel-angajare {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    
+}
+
+.mini-panel-angajare {
+
+    display: inline;
+    border: 0.5px solid #efefef;
+    margin: 20px;
+    width: 320px;
+    height: 140px;
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px;
+   background-color: rgba(236, 232, 232, 0.753);
+}
+
+.locatie-angajare {
+
+    text-align: center;
+    font-family: 'Bebas Neue', sans-serif;
+    letter-spacing: 1px;
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+}
+
+.header-angajare {
+
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 30px;
+    color: #0F52BA;
+    letter-spacing: 1px;
+
+}
+
+.desc-angajare {
+
+    font-family: quicksand ;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+sup {
+    padding-left: 6px;
+    font-weight: 100;
+    color: red;
+}
+
+.hr-angajare {
+
+    width: 30%;
+    color: black;
+    color: #efefef;
+
+}
+
+.aplica-btn {
+
+    color: white;
+    background-color: #000000;
+    background-image: linear-gradient(147deg, #000000 0%, #04619f 74%);
+    font-family: poppins;
+    font-size: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 20px;
+    padding-left: 20px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    
+}
+
+.button-aplica {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
 
   @media (max-width: 768px) {
     .nav-list a {
